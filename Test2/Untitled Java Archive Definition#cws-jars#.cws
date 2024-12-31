@@ -1,0 +1,22 @@
+
+<JavaArchiveSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.javaarchivesource.JavaArchiveSource"
+	RuntimeDocumentID="18934167-73BA-A1EF-B1D6-EBA7D8E6F230">
+	<DocumentID>18934167-73BA-A1EF-B1D6-EBA7D8E6B230</DocumentID>
+	<Name>Untitled Java Archive Definition</Name>
+	<Description>Untitled Java Archive Definition</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2024-12-31T09:48:16.55</CreationDate>
+	<Notes/>
+	<JarFileName>Untitled Java Archive Definition</JarFileName>
+	<NamespacePrefix></NamespacePrefix>
+	<Dependencies/>
+	<SourceFolder>
+		<uri
+			id="18934167-73BA-A1EF-B1D5-B32093867230"
+			path="Test2/src/java"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+</JavaArchiveSource>

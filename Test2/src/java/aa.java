@@ -1,1 +1,5 @@
-public class aa{}
+public class aa{
+public void add() {
+		System.out.println(2+ 3);
+	}
+}

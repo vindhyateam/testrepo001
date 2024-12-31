@@ -1,0 +1,22 @@
+
+<JavaArchiveSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.javaarchivesource.JavaArchiveSource"
+	RuntimeDocumentID="18934167-73BA-A1EF-B1D1-0F6EB09DF230">
+	<DocumentID>18934167-73BA-A1EF-B1D1-0F6EB09DB230</DocumentID>
+	<Name>JAD</Name>
+	<Description>JAD</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2024-12-31T08:12:23.784</CreationDate>
+	<Notes/>
+	<JarFileName>JAD</JarFileName>
+	<NamespacePrefix></NamespacePrefix>
+	<Dependencies/>
+	<SourceFolder>
+		<uri
+			id="18934167-73BA-A1EF-B1D1-0F6EB09EB230"
+			path="TestProject/src/java"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+</JavaArchiveSource>

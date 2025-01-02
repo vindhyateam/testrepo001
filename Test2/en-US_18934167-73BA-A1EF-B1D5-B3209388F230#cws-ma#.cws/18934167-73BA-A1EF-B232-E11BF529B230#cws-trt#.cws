@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="18934167-73BA-A1EF-B232-E11BF529F230">
+	<DocumentID>18934167-73BA-A1EF-B232-E11BF529B230</DocumentID>
+	<Name>18934167-73BA-A1EF-B232-E11BF529B230</Name>
+	<Description>bpm</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2025-01-02T05:36:37.411</CreationDate>
+	<Notes/>
+	<Text>bpm</Text>
+	<Language>
+		<uri
+			id="18934167-73BA-A1EF-B1D5-B32093897230"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="18934167-73BA-A1EF-B232-E11BF5293230"
+		/>
+	</TextIdentifier>
+</TranslatedText>

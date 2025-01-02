@@ -1,0 +1,19 @@
+
+<RoleDesignTime
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.organization.role.RoleDesignTime"
+	typeVersion="0242a425-d150-11e7-e026-4d289331252b"
+	RuntimeDocumentID="18934167-73BA-A1EF-B234-63C9886CF230">
+	<DocumentID>18934167-73BA-A1EF-B234-63C9886CB230</DocumentID>
+	<Name>Untitled Roleg</Name>
+	<Description>Untitled Roleg</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2025-01-02T07:46:46.98</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<ExposeForReuse>false</ExposeForReuse>
+	<type>Functional</type>
+	<Subroles/>
+	<Superroles/>
+	<configuredTasks/>
+</RoleDesignTime>

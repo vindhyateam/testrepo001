@@ -1,1 +1,3 @@
-public class A{asdasd}
+public class A{
+public void add(){}
+}

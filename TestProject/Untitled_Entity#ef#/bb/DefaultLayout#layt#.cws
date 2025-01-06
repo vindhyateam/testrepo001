@@ -49,7 +49,7 @@
 	<LayoutPanels>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
+			typeVersion="743C5548-A6F9-4223-B1AE-78D7F3F00E08"
 			RuntimeDocumentID="002B6743-E3EE-A1EF-B1D4-F3BD3E8B486C">
 			<DocumentID>002B6743-E3EE-A1EF-B1D4-F3BD3E8B086C</DocumentID>
 			<Name>Breadcrumbs</Name>
@@ -76,7 +76,7 @@
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
+			typeVersion="743C5548-A6F9-4223-B1AE-78D7F3F00E08"
 			RuntimeDocumentID="002B6743-E3EE-A1EF-B1D4-F3BD3E8AC86C">
 			<DocumentID>002B6743-E3EE-A1EF-B1D4-F3BD3E8A886C</DocumentID>
 			<Name>Actions</Name>
@@ -103,7 +103,7 @@
 		</LayoutPanel>
 		<LayoutPanel
 			type="com.cordys.entity.buildingblocks.layout.LayoutPanel"
-			typeVersion="957533B8-9634-4C16-8BBF-DF86E23ECF97"
+			typeVersion="743C5548-A6F9-4223-B1AE-78D7F3F00E08"
 			RuntimeDocumentID="002B6743-E3EE-A1EF-B1D4-F3BD3E8A486C">
 			<DocumentID>002B6743-E3EE-A1EF-B1D4-F3BD3E8A086C</DocumentID>
 			<Name>Form</Name>

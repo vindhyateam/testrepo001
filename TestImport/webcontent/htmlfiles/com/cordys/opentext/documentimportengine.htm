@@ -1,0 +1,81 @@
+<html>
+<head>
+<script type="text/javascript">
+//===== Export
+  setPublic(DocumentImportEngine, "com.cordys.cws.runtime.documentexchange");
+
+//===== Import
+  importType("com.cordys.cws.runtime.documentexchange.DocumentExchangeEngine");
+  importType("com.cordys.cws.umf.common.StudioUMFXDSJavaCall");
+
+//+++++ DocumentImportEngine
+//----- Constructor
+  inherit(DocumentImportEngine, DocumentExchangeEngine);
+
+  function DocumentImportEngine( iEnvironment )
+  {
+    this.DocumentExchangeEngine( iEnvironment );
+  }
+
+  DocumentImportEngine.cwsAnnotations = {};
+  DocumentImportEngine.cwsAnnotations.classSpecification = {c:{n:"http://schemas.cordys.com/cws/runtime/documentexchange/DocumentImportEngine/1.0",t:"com.cordys.cws.runtime.documentexchange.DocumentImportEngine",s:"NONE",l:"AUTOMATIC",b:false,x:"com.cordys.cws.runtime.documentexchange.DocumentExchangeEngine",i:false,e:[],p:{SourceDocumentName:{c:"String",v:null,d:false,o:false}},a:{DestinationFolder:{p:null,g:false,o:false,i:false,e:false,c:false,w:false,s:false,m:"1",x:"1",a:"none",r:"DestinationFolder",t:"com.cordys.cws.runtime.types.folder.StudioFolder"}}}};
+
+  DocumentImportEngine.documentType = "com.cordys.cws.runtime.documentexchange.DocumentImportEngine";
+
+//----- Properties
+  DocumentImportEngine.prototype.sourceDocumentName = function(iValue)
+  {
+    if (typeof( iValue ) != "undefined")
+    {
+      return this._objectAdaptee().setPropertyValue('SourceDocumentName', iValue);
+    }
+    return this._objectAdaptee().getPropertyValue('SourceDocumentName');
+  }
+
+//----- Associations
+  DocumentImportEngine.prototype.destinationFolder = function()
+  {
+    if (1 == arguments.length)
+    {
+      return this._objectAdaptee().getAssociationRole('DestinationFolder').setObject(arguments[0]);
+    }
+    return this._objectAdaptee().getAssociationRole('DestinationFolder').getObject();
+  }
+
+//----- Operations
+  DocumentImportEngine.prototype.performImport = function(iconfiguration, iJobHandler, iDeprecatedSOAPFaultContext )
+{
+  var l_call = new StudioUMFXDSJavaCall(this, null, "performImport", "http://schemas.cordys.com/cws/runtime/documentexchange/DocumentImportEngine/1.0", false, false, "boolean", false, false, iJobHandler, iDeprecatedSOAPFaultContext);
+  l_call.addParameter("object","configuration",iconfiguration,false);
+  return l_call.execute();
+}
+
+DocumentImportEngine.prototype.performImpactAnalysis = function(iconfiguration, ijavaarchiveobject, iJobHandler, iDeprecatedSOAPFaultContext )
+{
+var l_call = new StudioUMFXDSJavaCall(this, null, "performImpactAnalysis", "http://schemas.cordys.com/cws/runtime/documentexchange/DocumentImportEngine/1.0", false, false, "xml", false, false, iJobHandler, iDeprecatedSOAPFaultContext);
+l_call.addParameter("object","configuration",iconfiguration,false);
+l_call.addParameter("object","javaarchiveobject",ijavaarchiveobject,false);
+return l_call.execute();
+}
+
+DocumentImportEngine.prototype.performDocumentImport = function(iconfiguration, ijavaachiveobject, iJobHandler, iDeprecatedSOAPFaultContext )
+{
+var l_call = new StudioUMFXDSJavaCall(this, null, "performDocumentImport", "http://schemas.cordys.com/cws/runtime/documentexchange/DocumentImportEngine/1.0", false, false, "boolean", false, false, iJobHandler, iDeprecatedSOAPFaultContext);
+l_call.addParameter("object","configuration",iconfiguration,false);
+l_call.addParameter("object","javaachiveobject",ijavaachiveobject,false);
+return l_call.execute();
+}
+
+//+++++ DocumentImportEngine
+//----- Properties
+//----- Events
+//----- Filters
+//----- Instance Methods
+
+//----- Static Methods
+//----- Private Methods
+</script>
+</head>
+<body>
+</body>
+</html>

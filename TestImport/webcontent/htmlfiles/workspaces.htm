@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<div class="root-toolbar toolbar">
+	<div class="document-info">
+		<label class="root-label-info" data-i18n="txtAllWorkspaces">All workspaces</label>
+	</div>
+	<div class="action-buttons">
+		<div class="action-button-separator" style="margin: 14px 0px 4px 4px;"></div>
+		<div class="action-header-state"></div>
+	</div>
+</div>
+<div class="root-toolbar toolbar add-toolbar">
+	<div class="root-toolbar-button toolbar-button toolbar-button-icon toolbar-button-icon-add add-button"
+		data-i18n="title=titleAddWorkspace"></div>
+	<label class="button-label-info add-button cursor-add" data-i18n="addButton">Add</label>
+	<div class="action-toolbar"></div>
+</div>
+<div class="view-content" style="height:calc(100% - 5rem)">
+	<div id="noWorkspaces" class="image-centered">
+		<div class="text-centered text-size-large" style="position: absolute; top: calc(50% + 3rem)">
+			<span data-i18n="txtNoWorkspace">No workspace available</span>
+			<div class="form-group" style="margin-top: 10px;">
+				<button class="button button-primary" id="btnAddWorkspace" style="margin-top: 16px;" data-i18n="addButton">Add</button>
+				<button class="button button-secondary" id="btnRefreshWorkspace" style="margin-top: 16px; margin-left: 1rem;" data-i18n="refreshButton">Refresh</button>
+			</div>
+		</div>
+	</div>
+	<div class="data-list-view" style="height: 99.75%;">
+		<div class="table-workspaces" style="display:none">
+			<table class="table" id="table" data-toggle="table" data-show-refresh="true" data-click-to-select="true"
+				style="width: 100%;border-collapse: collapse;" data-row-attributes="rowAttributes" data-height="100%">
+				<thead>
+					<tr>
+						<th data-width="2" data-width-unit="%" data-field="state" data-checkbox="true"></th>
+						<th class="custom-image-column toggle-position" data-formatter="imageFormatter"
+							data-width="24" data-width-unit="%" data-click-to-select="false" data-sortable="true" data-field="name" data-i18n="lblDocumentName">Name</th>
+						<th class="ilactions" data-width="12" data-width-unit="%" data-click-to-select="false" data-formatter="dataFormatter"></th>
+						<th class="toggle-position" data-width="28" data-width-unit="%" data-sortable="true" data-formatter="titleFormatter"
+							data-field="description" data-i18n="lblDescription">Description</th>
+						<th data-width="10" data-width-unit="%" data-sortable="true" data-field="modifiedBy" data-i18n="lblModifiedBy">Modified by</th>
+						<th data-width="14" data-width-unit="%" data-sortable="true" data-field="modifiedOn" data-i18n="lblModifiedOn">Modified on</th>
+						<th data-width="10" data-width-unit="%" data-sortable="true" data-field="createdBy" data-i18n="lblCreatedBy">Created by</th>
+					</tr>
+				</thead>
+				<tbody id="workspacesList">
+				</tbody>
+			</table>
+		</div>
+	</div>
+</div>
+<script>
+	function rowAttributes(row, index) {
+		return {
+			'isTeamDev': row.isTeamDev
+		}
+	}
+	function imageFormatter(value, row) {
+		var wsIcon = row.isTeamDev ? "icon-workspace-svn" : "icon-workspace";
+		return `<div class="document-icon ${wsIcon}"></div><div class="document-icon-info" title="${value}">${value}</div>`;
+	}
+	function titleFormatter(value) {
+		return `<div class="document-description" title="${value}">${value}</div>`;
+	}
+	function dataFormatter(value) {
+		return value == undefined ? "" : value;
+	}
+</script>

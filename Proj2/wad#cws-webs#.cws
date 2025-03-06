@@ -12,8 +12,8 @@
 	<NamespacePrefix></NamespacePrefix>
 	<SourceFolder>
 		<uri
-			id="18934167-73BA-A1EF-BE90-C932141FF23A"
-			path="Proj2/web"
+			id="18934167-73BA-A1EF-BE78-E3CFC364323A"
+			path="Proj2/test"
 			type="com.cordys.cws.runtime.types.folder.StudioFolder"
 		/>
 	</SourceFolder>

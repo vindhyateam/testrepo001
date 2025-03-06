@@ -1,0 +1,30 @@
+<html>
+<head>
+    <script type="text/javascript">
+        setPublic(RuleActionGroupAdapter, "com.cordys.entity.buildingblocks.rule.editorview");
+
+        importType("com.cordys.cws.ide.document.views.backbone.adapter.CWSBackboneAdapter1");
+        importType("com.cordys.entity.buildingblocks.rule.editorview.RuleActionAdapter");
+
+        inherit(RuleActionGroupAdapter, CWSBackboneAdapter1);
+
+        //----- Constructor
+        function RuleActionGroupAdapter() {
+            this.CWSBackboneAdapter();
+        }
+
+        //----- Properties
+        //----- Events
+        RuleActionGroupAdapter.prototype.getAssociationsToRender = function() {
+            return [
+            {
+                role: "RuleGroupActions",
+                adapter: RuleActionAdapter
+	        },
+            ]
+        }
+    </script>
+</head>
+<body>
+</body>
+</html>

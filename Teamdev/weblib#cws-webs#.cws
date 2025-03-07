@@ -10,5 +10,11 @@
 	<CreationDate>2025-03-05T08:58:15.127</CreationDate>
 	<Notes/>
 	<NamespacePrefix></NamespacePrefix>
-	<SourceFolder/>
+	<SourceFolder>
+		<uri
+			id="18934167-73BA-A1EF-BEC6-11ACF522B23A"
+			path="Teamdev/weblib"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
 </WebSource>

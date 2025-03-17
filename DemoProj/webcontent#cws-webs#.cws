@@ -1,0 +1,20 @@
+
+<WebSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.websource.WebSource"
+	RuntimeDocumentID="0242ac13-0004-a1f0-80bd-f0aa247e261f">
+	<DocumentID>0242ac13-0004-a1f0-80bd-f0aa247c261f</DocumentID>
+	<Name>webcontent</Name>
+	<Description>webcontent</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2025-03-17T06:28:44.198</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<SourceFolder>
+		<uri
+			id="0242ac13-0004-a1f0-80bd-f0aa2479661f"
+			path="DemoProj/webFolders"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+</WebSource>

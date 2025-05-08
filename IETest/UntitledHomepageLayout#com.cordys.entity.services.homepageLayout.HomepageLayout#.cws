@@ -1,0 +1,35 @@
+
+<HomepageLayout
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.entity.services.homepageLayout.HomepageLayout"
+	typeVersion="5FB698AB-8095-4249-8CC7-B4058DDA5D41"
+	RuntimeDocumentID="002B6743-E3EE-A1F0-8AF4-4888F14E4873">
+	<DocumentID>002B6743-E3EE-A1F0-8AF4-4888F14E0873</DocumentID>
+	<Name>UntitledHomepageLayout</Name>
+	<Description>UntitledHomepageLayout</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2025-05-08T05:58:46.382</CreationDate>
+	<Notes/>
+	<AllowUpdateSecurityViaAdmin>false</AllowUpdateSecurityViaAdmin>
+	<Definition></Definition>
+	<HelpURL></HelpURL>
+	<HideCreateAction>false</HideCreateAction>
+	<IncludeInCreate>false</IncludeInCreate>
+	<IsFullLayout>false</IsFullLayout>
+	<IsPreviewLayout>false</IsPreviewLayout>
+	<LayoutPanelType>FitToScreen</LayoutPanelType>
+	<LayoutType>1</LayoutType>
+	<ShowFirstTab>false</ShowFirstTab>
+	<ActionBarAssociations/>
+	<BuildingBlock/>
+	<CustomActions/>
+	<DisplayName/>
+	<FormAssociations/>
+	<Image/>
+	<LayoutAssociations/>
+	<LayoutPanels/>
+	<Original/>
+	<SecurityDescriptor/>
+	<WorklistAssociations/>
+	<XFormAssociations/>
+</HomepageLayout>

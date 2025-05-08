@@ -1,0 +1,23 @@
+
+<TranslatedText
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="002B6743-E3EE-A1F0-8AF5-6C1D15B18873">
+	<DocumentID>002B6743-E3EE-A1F0-8AF5-6C1D15B14873</DocumentID>
+	<Name>002B6743-E3EE-A1F0-8AF5-6C1D15B14873</Name>
+	<Description>Untitled Business Process Model</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2025-05-08T06:32:29.358</CreationDate>
+	<Notes/>
+	<Text>Untitled Business Process Model</Text>
+	<Language>
+		<uri
+			id="18934167-73BA-A1EF-BE60-2F02BE82323A"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="002B6743-E3EE-A1F0-8AF5-6C1D15B0C873"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="002B6743-E3EE-A1F0-8AF5-946951E34873">
+	<DocumentID>002B6743-E3EE-A1F0-8AF5-946951E30873</DocumentID>
+	<Name>002B6743-E3EE-A1F0-8AF5-946951E30873</Name>
+	<Description>E List</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2025-05-08T06:33:32.16</CreationDate>
+	<Notes/>
+	<DefaultText>E List</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="18934167-73BA-A1EF-BE60-2F02BE83323A"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="002B6743-E3EE-A1F0-8AF5-946951E38873"
+		/>
+	</Translations>
+</TextIdentifier>

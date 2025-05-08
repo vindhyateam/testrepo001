@@ -1,0 +1,103 @@
+
+<Project
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.project.Project"
+	typeVersion="0019B980-5ADC-71DF-9C5A-1C9DE0779704"
+	RuntimeDocumentID="002B6743-E3EE-A1F0-8AF4-6EC0136C4873">
+	<DocumentID>002B6743-E3EE-A1F0-8AF4-6EC0136C0873</DocumentID>
+	<Name>Untitled Project</Name>
+	<Description>Untitled Project</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2025-05-08T06:04:10.272</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<Configurations/>
+	<ISVPackageInfo>
+		<ISVPackageInfo
+			type="com.cordys.cws.packaging.isvp.ISVPackageInfo"
+			typeVersion="00215A62-2E6A-11E2-EEB7-903C43CFF084"
+			RuntimeDocumentID="002B6743-E3EE-A1F0-8AF4-6EC0136B0873">
+			<DocumentID>002B6743-E3EE-A1F0-8AF4-6EC0136AC873</DocumentID>
+			<Name>My Company Untitled Project</Name>
+			<Description>My Company Untitled Project</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2025-05-08T06:04:10.272</CreationDate>
+			<Notes/>
+			<BuildNumber>0</BuildNumber>
+			<GenerateModelPackage>false</GenerateModelPackage>
+			<ISVPackageFileName>My Company Untitled Project 1.0.0</ISVPackageFileName>
+			<ISVPackageOwner>My Company</ISVPackageOwner>
+			<PackageForRuntime>true</PackageForRuntime>
+			<PostISVLoaderInformation/>
+			<Product>Untitled Project</Product>
+			<SupportedDeploymentSpaces
+				xmlns:cws="http://schemas.cordys.com/cws/1.0"
+				cws:type="collection:string">
+				<cws:item>SHARED</cws:item>
+			</SupportedDeploymentSpaces>
+			<Version>1.0</Version>
+			<LicenseAgreement/>
+			<ThirdPartyAgreement/>
+		</ISVPackageInfo>
+	</ISVPackageInfo>
+	<RuntimeQualifiedName/>
+	<SourceFolder>
+		<uri
+			id="002B6743-E3EE-A1F0-8AF4-6EC0136B8873"
+			path="Untitled Project"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<_AddOns>
+		<TranslationInformation
+			type="com.cordys.translation.TranslationInformation"
+			typeVersion="b81bb9b4-8af7-470f-a5fa-864be49acb9d"
+			RuntimeDocumentID="002B6743-E3EE-A1F0-8AF4-6EC0136A8873">
+			<DocumentID>002B6743-E3EE-A1F0-8AF4-6EC0136A4873</DocumentID>
+			<Name>TranslationInformation</Name>
+			<Description>TranslationInformation</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2025-05-08T06:04:10.273</CreationDate>
+			<Notes/>
+			<LanguagePacks>
+				<LanguagePack
+					type="com.cordys.translation.LanguagePack"
+					typeVersion="11456b87-q895-32f2-584q-58f3tlm2so65"
+					RuntimeDocumentID="002B6743-E3EE-A1F0-8AF4-6EC013698873">
+					<DocumentID>002B6743-E3EE-A1F0-8AF4-6EC013694873</DocumentID>
+					<Name>en-US</Name>
+					<Description>en-US</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2025-05-08T06:04:10.273</CreationDate>
+					<Notes/>
+					<Language>English - United States</Language>
+					<Texts>
+						<uri
+							id="002B6743-E3EE-A1F0-8AF4-6EC01368C873"
+							path="Untitled Project/en-US_002B6743-E3EE-A1F0-8AF4-6EC01368C873"
+							type="com.cordys.cws.associations.MergeableAssociation"
+						/>
+					</Texts>
+					<TranslationInformation>
+						<uri
+							id="002B6743-E3EE-A1F0-8AF4-6EC0136A4873"
+						/>
+					</TranslationInformation>
+				</LanguagePack>
+			</LanguagePacks>
+			<ProjectLanguage>
+				<uri
+					id="002B6743-E3EE-A1F0-8AF4-6EC013694873"
+				/>
+			</ProjectLanguage>
+			<Texts>
+				<uri
+					id="002B6743-E3EE-A1F0-8AF4-6EC01369C873"
+					path="Untitled Project/TranslationInformation_002B6743-E3EE-A1F0-8AF4-6EC01369C873"
+					type="com.cordys.cws.associations.MergeableAssociation"
+				/>
+			</Texts>
+			<TranslationInformation/>
+		</TranslationInformation>
+	</_AddOns>
+</Project>

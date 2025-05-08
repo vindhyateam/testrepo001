@@ -1,0 +1,37 @@
+
+<Rule
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.rule.Rule"
+	typeVersion="688D9A43-995D-4D1C-A5D4-8C06A6373ABB"
+	RuntimeDocumentID="002B6743-E3EE-A1F0-8AF4-458D7317C873">
+	<DocumentID>002B6743-E3EE-A1F0-8AF4-458D73178873</DocumentID>
+	<Name>Untitled Rule</Name>
+	<Description>Untitled Rule</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2025-05-08T06:05:54.257</CreationDate>
+	<Notes/>
+	<effectivedate></effectivedate>
+	<enabled>true</enabled>
+	<expirydate></expirydate>
+	<modeldata/>
+	<on_delete>true</on_delete>
+	<on_insert>true</on_insert>
+	<on_update>true</on_update>
+	<ruledefinition/>
+	<rulepriority>5</rulepriority>
+	<ruletype>constraint</ruletype>
+	<usexpath>true</usexpath>
+	<version>1.0</version>
+	<ExternalActions/>
+	<LinkedRule/>
+	<MainSchemaFragmentsReference/>
+	<MutexRules/>
+	<OverridesRules/>
+	<PassiveRules/>
+	<Realization/>
+	<RelatedSchemaFragmentsReferences/>
+	<Roles/>
+	<RuleGroup/>
+	<RuleTemplate/>
+	<WebserviceBindingOperations/>
+</Rule>

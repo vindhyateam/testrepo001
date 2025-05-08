@@ -512,6 +512,65 @@
 						/>
 					</TypeDefinition>
 				</Property>
+				<Property
+					type="com.cordys.entity.core.structure.property.Property"
+					RuntimeDocumentID="002B6743-E3EE-A1F0-8AFA-BB8C43520873">
+					<DocumentID>002B6743-E3EE-A1F0-8AFA-BB8C4351C873</DocumentID>
+					<Name>Untitled_Property_1</Name>
+					<Description>Untitled_Property_1</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2025-05-08T09:01:47.513</CreationDate>
+					<Notes/>
+					<ConflictLevel>None</ConflictLevel>
+					<DataType>Text</DataType>
+					<ExposeForReuse>false</ExposeForReuse>
+					<Expression></Expression>
+					<IsComputedProperty>false</IsComputedProperty>
+					<IsReadOnly>false</IsReadOnly>
+					<IsRequired>false</IsRequired>
+					<IsValueUnique>false</IsValueUnique>
+					<StaticProperty></StaticProperty>
+					<Updatability>ReadWrite</Updatability>
+					<BuildingBlock>
+						<uri
+							id="002B6743-E3EE-A1F0-8AF4-4888F15DC873"
+						/>
+					</BuildingBlock>
+					<DisplayName/>
+					<OwnedTypeDefinition>
+						<SmallTextPropertyDefinition
+							type="com.cordys.entity.core.typesystem.primitives.text.SmallTextPropertyDefinition"
+							typeVersion="4189E3FD-7E68-423A-8289-FEFAD1EC0ED8"
+							RuntimeDocumentID="002B6743-E3EE-A1F0-8AFA-BB8C43510873">
+							<DocumentID>002B6743-E3EE-A1F0-8AFA-BB8C4350C873</DocumentID>
+							<Name>002B6743-E3EE-A1F0-8AFA-BB8C4350C873</Name>
+							<Description>002B6743-E3EE-A1F0-8AFA-BB8C4350C873</Description>
+							<CreatedBy>sysadmin</CreatedBy>
+							<CreationDate>2025-05-08T09:01:47.513</CreationDate>
+							<Notes/>
+							<DefaultValue></DefaultValue>
+							<FullTextSearchable>false</FullTextSearchable>
+							<IsEncrypted>false</IsEncrypted>
+							<Length>64</Length>
+							<MaskPattern></MaskPattern>
+							<MaskType></MaskType>
+							<Pattern></Pattern>
+							<lowerBound>1</lowerBound>
+							<upperBound>1</upperBound>
+							<Type>
+								<uri
+									id="005056C0-0008-11E6-FAF9-068E75561F9D"
+								/>
+							</Type>
+						</SmallTextPropertyDefinition>
+					</OwnedTypeDefinition>
+					<Tooltip/>
+					<TypeDefinition>
+						<uri
+							id="002B6743-E3EE-A1F0-8AFA-BB8C4350C873"
+						/>
+					</TypeDefinition>
+				</Property>
 			</Properties>
 		</PropertyBuildingBlock>
 		<TitleBuildingBlock

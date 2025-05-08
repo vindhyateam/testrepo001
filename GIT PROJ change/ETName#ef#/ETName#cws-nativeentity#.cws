@@ -6,12 +6,12 @@
 	RuntimeDocumentID="002B6743-E3EE-A1F0-8AFC-77DEB115C873">
 	<DocumentID>002B6743-E3EE-A1F0-8AFC-77DEB1158873</DocumentID>
 	<Name>ETName</Name>
-	<Description>ETName description changesjxaf</Description>
+	<Description>nn</Description>
 	<CreatedBy>sysadmin</CreatedBy>
 	<CreationDate>2025-05-08T09:57:51.642</CreationDate>
 	<Notes/>
-	<ExposeForReuse>false</ExposeForReuse>
-	<IsAbstract>false</IsAbstract>
+	<ExposeForReuse>true</ExposeForReuse>
+	<IsAbstract>true</IsAbstract>
 	<IsEisNativeEntity>false</IsEisNativeEntity>
 	<IsExternallyManaged>false</IsExternallyManaged>
 	<IsSingleton>false</IsSingleton>

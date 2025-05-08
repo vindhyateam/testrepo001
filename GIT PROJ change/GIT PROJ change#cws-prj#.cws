@@ -5,8 +5,8 @@
 	typeVersion="0019B980-5ADC-71DF-9C5A-1C9DE0779704"
 	RuntimeDocumentID="002B6743-E3EE-A1F0-8AFC-5113B92F0873">
 	<DocumentID>002B6743-E3EE-A1F0-8AFC-5113B92EC873</DocumentID>
-	<Name>GIT PROJ</Name>
-	<Description>GIT PROJ</Description>
+	<Name>GIT PROJ change</Name>
+	<Description>GIT PROJ change</Description>
 	<CreatedBy>sysadmin</CreatedBy>
 	<CreationDate>2025-05-08T09:49:49.231</CreationDate>
 	<Notes/>
@@ -25,11 +25,11 @@
 			<Notes/>
 			<BuildNumber>0</BuildNumber>
 			<GenerateModelPackage>false</GenerateModelPackage>
-			<ISVPackageFileName>My Company GIT PROJ 1.0.0</ISVPackageFileName>
+			<ISVPackageFileName>My Company GIT PROJ change 1.0.0</ISVPackageFileName>
 			<ISVPackageOwner>My Company</ISVPackageOwner>
 			<PackageForRuntime>true</PackageForRuntime>
 			<PostISVLoaderInformation/>
-			<Product>GIT PROJ</Product>
+			<Product>GIT PROJ change</Product>
 			<SupportedDeploymentSpaces
 				xmlns:cws="http://schemas.cordys.com/cws/1.0"
 				cws:type="collection:string">
@@ -44,7 +44,7 @@
 	<SourceFolder>
 		<uri
 			id="002B6743-E3EE-A1F0-8AFC-5113B92E4873"
-			path="GIT PROJ"
+			path="GIT PROJ change"
 			type="com.cordys.cws.runtime.types.folder.StudioFolder"
 		/>
 	</SourceFolder>
@@ -74,7 +74,7 @@
 					<Texts>
 						<uri
 							id="002B6743-E3EE-A1F0-8AFC-5113B92B8873"
-							path="GIT PROJ/en-US_002B6743-E3EE-A1F0-8AFC-5113B92B8873"
+							path="GIT PROJ change/en-US_002B6743-E3EE-A1F0-8AFC-5113B92B8873"
 							type="com.cordys.cws.associations.MergeableAssociation"
 						/>
 					</Texts>
@@ -93,7 +93,7 @@
 			<Texts>
 				<uri
 					id="002B6743-E3EE-A1F0-8AFC-5113B92C8873"
-					path="GIT PROJ/TranslationInformation_002B6743-E3EE-A1F0-8AFC-5113B92C8873"
+					path="GIT PROJ change/TranslationInformation_002B6743-E3EE-A1F0-8AFC-5113B92C8873"
 					type="com.cordys.cws.associations.MergeableAssociation"
 				/>
 			</Texts>

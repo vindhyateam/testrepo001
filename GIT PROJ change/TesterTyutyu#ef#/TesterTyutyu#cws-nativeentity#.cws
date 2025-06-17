@@ -5,8 +5,8 @@
 	typeVersion="06E7E4B3-21E5-4E89-A832-02EB7CCE511E"
 	RuntimeDocumentID="00505601-1ADB-A1F0-92D0-FA703A94B1FA">
 	<DocumentID>00505601-1ADB-A1F0-92D0-FA703A9471FA</DocumentID>
-	<Name>TesterTyu</Name>
-	<Description>TesterTyu</Description>
+	<Name>TesterTyutyu</Name>
+	<Description>TesterTyutyu</Description>
 	<CreatedBy>sysadmin</CreatedBy>
 	<CreationDate>2025-06-17T07:00:32.258</CreationDate>
 	<Notes/>
@@ -20,6 +20,9 @@
 	<BuildingBlocks>
 		<uri
 			id="00505601-1ADB-A1F0-92D0-FA703A8DF1FA"
+		/>
+		<uri
+			id="00505601-1ADB-A1F0-92D2-2F0374A7B1FA"
 		/>
 	</BuildingBlocks>
 	<DBObject/>
@@ -450,6 +453,82 @@
 				</Property>
 			</Properties>
 		</IdentityBuildingBlock>
+		<PropertyBuildingBlock
+			type="com.cordys.entity.buildingblocks.property.PropertyBuildingBlock"
+			RuntimeDocumentID="00505601-1ADB-A1F0-92D2-2F0374A7F1FA">
+			<DocumentID>00505601-1ADB-A1F0-92D2-2F0374A7B1FA</DocumentID>
+			<Name>Properties</Name>
+			<Description>Properties</Description>
+			<CreatedBy>sysadmin</CreatedBy>
+			<CreationDate>2025-06-17T07:02:06.423</CreationDate>
+			<Notes/>
+			<Entity>
+				<uri
+					id="00505601-1ADB-A1F0-92D0-FA703A9471FA"
+				/>
+			</Entity>
+			<Properties>
+				<Property
+					type="com.cordys.entity.core.structure.property.Property"
+					RuntimeDocumentID="00505601-1ADB-A1F0-92D2-2F0374A771FA">
+					<DocumentID>00505601-1ADB-A1F0-92D2-2F0374A731FA</DocumentID>
+					<Name>Untitled_Property</Name>
+					<Description>Untitled_Property</Description>
+					<CreatedBy>sysadmin</CreatedBy>
+					<CreationDate>2025-06-17T07:02:06.423</CreationDate>
+					<Notes/>
+					<ConflictLevel>None</ConflictLevel>
+					<DataType>Text</DataType>
+					<ExposeForReuse>false</ExposeForReuse>
+					<Expression></Expression>
+					<IsComputedProperty>false</IsComputedProperty>
+					<IsReadOnly>false</IsReadOnly>
+					<IsRequired>false</IsRequired>
+					<IsValueUnique>false</IsValueUnique>
+					<StaticProperty></StaticProperty>
+					<Updatability>ReadWrite</Updatability>
+					<BuildingBlock>
+						<uri
+							id="00505601-1ADB-A1F0-92D2-2F0374A7B1FA"
+						/>
+					</BuildingBlock>
+					<DisplayName/>
+					<OwnedTypeDefinition>
+						<SmallTextPropertyDefinition
+							type="com.cordys.entity.core.typesystem.primitives.text.SmallTextPropertyDefinition"
+							typeVersion="4189E3FD-7E68-423A-8289-FEFAD1EC0ED8"
+							RuntimeDocumentID="00505601-1ADB-A1F0-92D2-2F0374A6F1FA">
+							<DocumentID>00505601-1ADB-A1F0-92D2-2F0374A6B1FA</DocumentID>
+							<Name>00505601-1ADB-A1F0-92D2-2F0374A6B1FA</Name>
+							<Description>00505601-1ADB-A1F0-92D2-2F0374A6B1FA</Description>
+							<CreatedBy>sysadmin</CreatedBy>
+							<CreationDate>2025-06-17T07:02:06.423</CreationDate>
+							<Notes/>
+							<DefaultValue></DefaultValue>
+							<FullTextSearchable>false</FullTextSearchable>
+							<IsEncrypted>false</IsEncrypted>
+							<Length>64</Length>
+							<MaskPattern></MaskPattern>
+							<MaskType></MaskType>
+							<Pattern></Pattern>
+							<lowerBound>1</lowerBound>
+							<upperBound>1</upperBound>
+							<Type>
+								<uri
+									id="005056C0-0008-11E6-FAF9-068E75561F9D"
+								/>
+							</Type>
+						</SmallTextPropertyDefinition>
+					</OwnedTypeDefinition>
+					<Tooltip/>
+					<TypeDefinition>
+						<uri
+							id="00505601-1ADB-A1F0-92D2-2F0374A6B1FA"
+						/>
+					</TypeDefinition>
+				</Property>
+			</Properties>
+		</PropertyBuildingBlock>
 	</OwnedBuildingBlocks>
 	<ParentRelationship/>
 	<Supertype/>

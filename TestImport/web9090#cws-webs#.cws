@@ -1,0 +1,20 @@
+
+<WebSource
+	xmlns:cws="http://schemas.cordys.com/cws/1.0"
+	type="com.cordys.cws.documenttypes.websource.WebSource"
+	RuntimeDocumentID="18934167-73BA-A1EF-BE2E-E366C857323A">
+	<DocumentID>18934167-73BA-A1EF-BE2E-E366C856F23A</DocumentID>
+	<Name>web9090</Name>
+	<Description>web9090</Description>
+	<CreatedBy>sysadmin</CreatedBy>
+	<CreationDate>2025-03-04T05:46:58.334</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<SourceFolder>
+		<uri
+			id="18934167-73BA-A1EF-BE2E-E366C854F23A"
+			path="TestImport/webcontent"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+</WebSource>
